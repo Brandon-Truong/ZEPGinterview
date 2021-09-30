@@ -5,13 +5,13 @@ using System.IO;
 
 namespace ZEPGinterview
 {
-    class Class1
+    class FileReaderClass
     {
 
         String filename;
         String output;
 
-        public Class1(string fn)
+        public FileReaderClass(string fn)
         {
             filename = fn;
             output = "";
